@@ -28,6 +28,7 @@
     </pluginRepositories>
     
     <build>
+        <!--
         <plugins>
         <plugin>
           <groupId>com.smartbear.soapui</groupId>
@@ -50,5 +51,6 @@
             </executions>
         </plugin>
         </plugins>
+        -->
     </build>
 </project>
