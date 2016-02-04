@@ -42,9 +42,9 @@
            </configuration>
            <executions>
               <execution>
-                  <phase>generate-sources</phase>
+                  <phase>test</phase>
                   <goals>
-                    <goal>generate</goal>
+                    <goal>test</goal>
                   </goals>
               </execution>
             </executions>
