@@ -9,5 +9,8 @@
  * @author Robert Mazgut
  */
 public class main2 {
+
+    public main2() {
+    }
     
 }
