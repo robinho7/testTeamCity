@@ -1,0 +1,12 @@
+GUI
+GUI.SudokuTabulka
+GeneratorSusoku_RiesitelSudoku
+Generatory.GenetickyAlgoritmus
+Generatory.exactCoverMetoda
+Utility
+obtiaznost
+obtiaznost.Baliky
+obtiaznost.technikyRiesenia.Eliminacne
+obtiaznost.technikyRiesenia.Oznacujuce
+obtiaznost.technikyRieseniaZakladne
+pravidla
