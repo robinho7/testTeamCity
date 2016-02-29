@@ -47,8 +47,8 @@
                             <goal>test</goal>
                         </goals>
                         <configuration>
-                            <projectFile>${system.teamcity.build.workingDir}/src/main/java/com/mycompany/mavenproject1/sopaui/services-of-FRI-soapui-project.xml</projectFile>
-                            <outputFolder>${system.teamcity.build.workingDir}/target/soapuiReport</outputFolder>
+                            <projectFile>src/main/java/com/mycompany/mavenproject1/sopaui/services-of-FRI-soapui-project.xml</projectFile>
+                            <outputFolder>target/soapuiReport</outputFolder>
                             <junitReport>true</junitReport>
                         </configuration>
                     </execution>
