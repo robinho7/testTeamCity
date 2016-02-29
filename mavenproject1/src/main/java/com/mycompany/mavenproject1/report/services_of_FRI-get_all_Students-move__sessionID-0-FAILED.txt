@@ -1,0 +1,11 @@
+Status: FAILED
+Time Taken: 1
+Size: 0
+Timestamp: Mon Feb 29 17:15:35 CET 2016
+TestStep: move  sessionID
+Error:com.eviware.soapui.impl.wsdl.teststeps.PropertyTransferException: Missing target property
+
+----------------- Messages ------------------------------
+Error performing transfer [sessionId] - Missing target property
+----------------------------------------------------
+sessionId transferred [[Missing target property]] from [login.AuthType] to [get all Students.null]
