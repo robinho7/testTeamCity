@@ -28,29 +28,32 @@
     </pluginRepositories>
     
     <build>
-        <!--
         <plugins>
-        <plugin>
-          <groupId>com.smartbear.soapui</groupId>
-          <artifactId>soapui-maven-plugin</artifactId>
-          <version>4.6.1</version>
-          <configuration>
-               <projectFile>sample-soapui-project.xml</projectFile>
-               <testSuite>OleTest</testSuite>
-               <iface>IOrderService</iface>
-               <tool>wsi,axis1,axis2</tool>
-               <settingsFile>C:\workspace\core\soapui-settings.xml</settingsFile>
-           </configuration>
-           <executions>
-              <execution>
-                  <phase>test</phase>
-                  <goals>
-                    <goal>test</goal>
-                  </goals>
-              </execution>
-            </executions>
-        </plugin>
+            <plugin>
+              <groupId>com.smartbear.soapui</groupId>
+                <artifactId>soapui-maven-plugin</artifactId>
+                <version>5.1.3</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>mysql</groupId>
+                        <artifactId>mysql-connector-java</artifactId>
+                        <version>5.1.6</version>
+                    </dependency>
+                </dependencies>    
+                <executions>
+                    <execution>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>test</goal>
+                        </goals>
+                        <configuration>
+                            <projectFile>src/main/java/com/mycompany/mavenproject1/sopaui/services-of-FRI-soapui-project.xml</projectFile>
+                            <outputFolder>src/main/java/com/mycompany/mavenproject1/report</outputFolder>
+                            <junitReport>true</junitReport>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
-        -->
     </build>
 </project>
