@@ -48,7 +48,7 @@
                         </goals>
                         <configuration>
                             <projectFile>src/main/java/com/mycompany/mavenproject1/sopaui/services-of-FRI-soapui-project.xml</projectFile>
-                            <outputFolder>src/main/java/com/mycompany/mavenproject1/report</outputFolder>
+                            <outputFolder>target/soapuiReport</outputFolder>
                             <junitReport>true</junitReport>
                         </configuration>
                     </execution>
